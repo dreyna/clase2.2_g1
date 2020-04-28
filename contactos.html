@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<section class="conta">
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <label for="a">Nombres y Apellidos</label><br>
+            <input type="text" name="nombres" class="cajita" placeholder="Nombres y Apellidos" required><br>
+            <label for="a">Fecha Nacimiento</label><br>
+            <input type="date" name="fecha" class="cajita" placeholder="Fecha" required><br>
+            <label for="a">Teléfono</label><br>
+            <input type="tel" name="telefono" class="cajita" placeholder="# de Telefono" required><br>
+            <label for="a">Correo</label><br>
+            <input type="email" name="correo" class="cajita" placeholder="Correo" required><br>
+            <label for="a">Sexo</label><br>
+            <input type="radio" name="sexo">Femenino<br>
+            <input type="radio" name="sexo">Masculino<br>
+            <label for="a">Departamento</label><br>
+            <select name="dpto" id="dpto" class="cajita">
+                <option value="a">Seleccionar departamento</option>
+                <option value="1">Lima</option>
+                <option value="2">Ica</option>
+                <option value="3">Arequipa</option>
+            </select><br>
+            <label for="a">Hobby</label><br>
+            <input type="checkbox" name="a" id="a1">Música<br>
+            <input type="checkbox" name="b" id="a2">Viajar<br>
+            <input type="checkbox" name="c" id="a3">Lectura<br>
+            <input type="checkbox" name="d" id="a4">Redes Sociales<br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</section>
+</body>
+</html>
